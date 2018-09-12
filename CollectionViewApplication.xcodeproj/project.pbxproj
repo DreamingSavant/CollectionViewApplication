@@ -17,6 +17,9 @@
 		C6375651214892C50070D0B7 /* PintrestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375650214892C50070D0B7 /* PintrestLayout.swift */; };
 		C6375654214896680070D0B7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375653214896680070D0B7 /* APIClient.swift */; };
 		C63756562148A5AC0070D0B7 /* Unplashimages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756552148A5AC0070D0B7 /* Unplashimages.swift */; };
+		C63756582148AC140070D0B7 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756572148AC140070D0B7 /* EndPoint.swift */; };
+		C637565A2148AE430070D0B7 /* UnsplashClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756592148AE430070D0B7 /* UnsplashClient.swift */; };
+		C637565D214956180070D0B7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637565C214956180070D0B7 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		C6375650214892C50070D0B7 /* PintrestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintrestLayout.swift; sourceTree = "<group>"; };
 		C6375653214896680070D0B7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		C63756552148A5AC0070D0B7 /* Unplashimages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unplashimages.swift; sourceTree = "<group>"; };
+		C63756572148AC140070D0B7 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		C63756592148AE430070D0B7 /* UnsplashClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashClient.swift; sourceTree = "<group>"; };
+		C637565C214956180070D0B7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		C6375637214820A80070D0B7 /* CollectionViewApplication */ = {
 			isa = PBXGroup;
 			children = (
+				C637565B214956050070D0B7 /* ViewModels */,
 				C6375652214896580070D0B7 /* Networking */,
 				C637564D21488D6F0070D0B7 /* Views */,
 				C6375638214820A80070D0B7 /* AppDelegate.swift */,
@@ -91,8 +98,18 @@
 			children = (
 				C6375653214896680070D0B7 /* APIClient.swift */,
 				C63756552148A5AC0070D0B7 /* Unplashimages.swift */,
+				C63756572148AC140070D0B7 /* EndPoint.swift */,
+				C63756592148AE430070D0B7 /* UnsplashClient.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		C637565B214956050070D0B7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C637565C214956180070D0B7 /* ViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,10 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C637565D214956180070D0B7 /* ViewModel.swift in Sources */,
 				C637564F21488DA40070D0B7 /* PhotoCell.swift in Sources */,
 				C6375641214820A80070D0B7 /* CollectionViewApplication.xcdatamodeld in Sources */,
+				C63756582148AC140070D0B7 /* EndPoint.swift in Sources */,
 				C637563B214820A80070D0B7 /* ViewController.swift in Sources */,
 				C6375639214820A80070D0B7 /* AppDelegate.swift in Sources */,
+				C637565A2148AE430070D0B7 /* UnsplashClient.swift in Sources */,
 				C63756562148A5AC0070D0B7 /* Unplashimages.swift in Sources */,
 				C6375651214892C50070D0B7 /* PintrestLayout.swift in Sources */,
 				C6375654214896680070D0B7 /* APIClient.swift in Sources */,
