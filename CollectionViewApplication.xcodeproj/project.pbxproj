@@ -13,6 +13,10 @@
 		C6375641214820A80070D0B7 /* CollectionViewApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C637563F214820A80070D0B7 /* CollectionViewApplication.xcdatamodeld */; };
 		C6375643214820AB0070D0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6375642214820AB0070D0B7 /* Assets.xcassets */; };
 		C6375646214820AB0070D0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6375644214820AB0070D0B7 /* LaunchScreen.storyboard */; };
+		C637564F21488DA40070D0B7 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637564E21488DA40070D0B7 /* PhotoCell.swift */; };
+		C6375651214892C50070D0B7 /* PintrestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375650214892C50070D0B7 /* PintrestLayout.swift */; };
+		C6375654214896680070D0B7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6375653214896680070D0B7 /* APIClient.swift */; };
+		C63756562148A5AC0070D0B7 /* Unplashimages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756552148A5AC0070D0B7 /* Unplashimages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C6375642214820AB0070D0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6375645214820AB0070D0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6375647214820AB0070D0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C637564E21488DA40070D0B7 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		C6375650214892C50070D0B7 /* PintrestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintrestLayout.swift; sourceTree = "<group>"; };
+		C6375653214896680070D0B7 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C63756552148A5AC0070D0B7 /* Unplashimages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unplashimages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		C6375637214820A80070D0B7 /* CollectionViewApplication */ = {
 			isa = PBXGroup;
 			children = (
+				C6375652214896580070D0B7 /* Networking */,
+				C637564D21488D6F0070D0B7 /* Views */,
 				C6375638214820A80070D0B7 /* AppDelegate.swift */,
 				C637563A214820A80070D0B7 /* ViewController.swift */,
 				C637563C214820A80070D0B7 /* Main.storyboard */,
@@ -65,6 +75,24 @@
 				C637563F214820A80070D0B7 /* CollectionViewApplication.xcdatamodeld */,
 			);
 			path = CollectionViewApplication;
+			sourceTree = "<group>";
+		};
+		C637564D21488D6F0070D0B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C637564E21488DA40070D0B7 /* PhotoCell.swift */,
+				C6375650214892C50070D0B7 /* PintrestLayout.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6375652214896580070D0B7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C6375653214896680070D0B7 /* APIClient.swift */,
+				C63756552148A5AC0070D0B7 /* Unplashimages.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C637564F21488DA40070D0B7 /* PhotoCell.swift in Sources */,
 				C6375641214820A80070D0B7 /* CollectionViewApplication.xcdatamodeld in Sources */,
 				C637563B214820A80070D0B7 /* ViewController.swift in Sources */,
 				C6375639214820A80070D0B7 /* AppDelegate.swift in Sources */,
+				C63756562148A5AC0070D0B7 /* Unplashimages.swift in Sources */,
+				C6375651214892C50070D0B7 /* PintrestLayout.swift in Sources */,
+				C6375654214896680070D0B7 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
