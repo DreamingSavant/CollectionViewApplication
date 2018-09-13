@@ -216,7 +216,7 @@
             </objects>
             <point key="canvasLocation" x="3831.1999999999998" y="-564.53201970443354"/>
         </scene>
-        <!--Earliest-->
+        <!--Oldest-->
         <scene sceneID="aTG-hB-Vi0">
             <objects>
                 <viewController id="soP-Kr-NQ6" customClass="ViewController3" customModule="CollectionViewApplication" customModuleProvider="target" sceneMemberID="viewController">
@@ -307,7 +307,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wPv-n9-vll"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Earliest" id="knB-sH-JLY"/>
+                    <navigationItem key="navigationItem" title="Oldest" id="knB-sH-JLY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="activityIndicator" destination="Vmh-gE-sCJ" id="C1B-ue-eDL"/>
@@ -347,6 +347,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="wgP-dO-bh8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="azb-k5-NAH">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -380,11 +381,11 @@
             </objects>
             <point key="canvasLocation" x="2888.8000000000002" y="-564.53201970443354"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Oldest-->
         <scene sceneID="iCe-X0-UVh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TGO-uu-naC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="AXR-Qe-3uD"/>
+                    <tabBarItem key="tabBarItem" title="Oldest" image="icons8-elderly-person-24" id="AXR-Qe-3uD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="i1F-3T-6bk">
                         <rect key="frame" x="0.0" y="44" width="375" height="96"/>
@@ -403,5 +404,6 @@
     </scenes>
     <resources>
         <image name="Piccolo" width="1000" height="1000"/>
+        <image name="icons8-elderly-person-24" width="24" height="24"/>
     </resources>
 </document>
