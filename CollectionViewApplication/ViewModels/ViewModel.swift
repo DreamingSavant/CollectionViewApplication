@@ -56,6 +56,36 @@ class ViewModel {
         }
     }
     
+    func fetchPhotos1() {
+        if let client = client as? UnsplashClient {
+            self.isLoading = true
+            let endpoint = UnsplashEndpoint.photos(id: UnsplashClient.apiKey, order: .popular)
+            client.fetch(with: endpoint) { (either) in
+                switch either {
+                case .success(let photos):
+                    self.photos = photos
+                case .error(let error):
+                    self.showError?(error)
+                }
+            }
+        }
+    }
+    
+    func fetchPhotos2() {
+        if let client = client as? UnsplashClient {
+            self.isLoading = true
+            let endpoint = UnsplashEndpoint.photos(id: UnsplashClient.apiKey, order: .oldest)
+            client.fetch(with: endpoint) { (either) in
+                switch either {
+                case .success(let photos):
+                    self.photos = photos
+                case .error(let error):
+                    self.showError?(error)
+                }
+            }
+        }
+    }
+    
     private func fetchPhoto() {
         
         let group = DispatchGroup()

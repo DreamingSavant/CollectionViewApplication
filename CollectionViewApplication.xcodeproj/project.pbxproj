@@ -20,6 +20,8 @@
 		C63756582148AC140070D0B7 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756572148AC140070D0B7 /* EndPoint.swift */; };
 		C637565A2148AE430070D0B7 /* UnsplashClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756592148AE430070D0B7 /* UnsplashClient.swift */; };
 		C637565D214956180070D0B7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637565C214956180070D0B7 /* ViewModel.swift */; };
+		C637565F2149A7D40070D0B7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637565E2149A7D40070D0B7 /* ViewController2.swift */; };
+		C63756612149F7820070D0B7 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63756602149F7820070D0B7 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		C63756572148AC140070D0B7 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		C63756592148AE430070D0B7 /* UnsplashClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashClient.swift; sourceTree = "<group>"; };
 		C637565C214956180070D0B7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C637565E2149A7D40070D0B7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C63756602149F7820070D0B7 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				C6375652214896580070D0B7 /* Networking */,
 				C637564D21488D6F0070D0B7 /* Views */,
 				C6375638214820A80070D0B7 /* AppDelegate.swift */,
+				C63756602149F7820070D0B7 /* ViewController3.swift */,
+				C637565E2149A7D40070D0B7 /* ViewController2.swift */,
 				C637563A214820A80070D0B7 /* ViewController.swift */,
 				C637563C214820A80070D0B7 /* Main.storyboard */,
 				C6375642214820AB0070D0B7 /* Assets.xcassets */,
@@ -185,8 +191,10 @@
 			files = (
 				C637565D214956180070D0B7 /* ViewModel.swift in Sources */,
 				C637564F21488DA40070D0B7 /* PhotoCell.swift in Sources */,
+				C63756612149F7820070D0B7 /* ViewController3.swift in Sources */,
 				C6375641214820A80070D0B7 /* CollectionViewApplication.xcdatamodeld in Sources */,
 				C63756582148AC140070D0B7 /* EndPoint.swift in Sources */,
+				C637565F2149A7D40070D0B7 /* ViewController2.swift in Sources */,
 				C637563B214820A80070D0B7 /* ViewController.swift in Sources */,
 				C6375639214820A80070D0B7 /* AppDelegate.swift in Sources */,
 				C637565A2148AE430070D0B7 /* UnsplashClient.swift in Sources */,
